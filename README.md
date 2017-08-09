@@ -1,5 +1,5 @@
 # JSLoadMoreServiceDemo
-[![CocoaPods Compatible](https://img.shields.io/badge/objective-c-red.svg)](https://github.com/josin22/JSLoadMoreService)
+[![CocoaPods Compatible](https://img.shields.io/badge/lang-objective-c-red.svg)](https://github.com/josin22/JSLoadMoreService)
 [![CocoaPods Compatible](https://img.shields.io/badge/pod-1.1.0-red.svg)](https://github.com/josin22/JSLoadMoreService)
 [![CocoaPods Compatible](https://img.shields.io/badge/build-passing-green.svg)](https://github.com/josin22/JSLoadMoreService)
 

@@ -12,6 +12,8 @@
 
 	pod 'JSLoadMoreService', '~> 1.1.0'
   
+# 注
+依赖的三方库有:AFNetworking、ReactiveObjC、YYModel、MJRefresh
 # 使用
 优雅的建一个viewmodel类,
 然后下面就是怎样调用分类的方法:

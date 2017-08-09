@@ -8,4 +8,5 @@ target ‘JSLoadMoreServiceDemo’ do
 	pod 'ReactiveObjC'
     pod 'YYModel'
     pod 'MJRefresh'
+#    pod 'JSLoadMoreService'
 end

@@ -60,7 +60,9 @@
     JSGoodListModel *model = self.dataArray[indexPath.row];
     cell.textLabel.text = model.title;
     cell.detailTextLabel.text = [NSString stringWithFormat:@"¥%@",model.price];
-    
+    /**
+     *  根据当期index计算是否回调preloadblock
+     */
     [self preloadDataWithCurrentIndex:indexPath.row];
 }
 

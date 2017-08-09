@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JSLoadMoreService"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Make your pages more quickly."
 
   # This description is used to generate tags and improve search results.
@@ -95,7 +95,6 @@ Pod::Spec.new do |s|
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
-  s.public_header_files = "Pod/Classes/* * /* * /*.h"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -118,7 +117,6 @@ Pod::Spec.new do |s|
   #
 
   s.framework  = "UIKit"
-  s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
@@ -133,7 +131,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "AFNetworking"
   s.dependency "ReactiveObjC"
   s.dependency "YYModel"

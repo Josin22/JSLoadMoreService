@@ -14,12 +14,9 @@
 		548080721F383E8C00A8BD12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548080701F383E8C00A8BD12 /* LaunchScreen.storyboard */; };
 		5480807D1F383E8C00A8BD12 /* JSLoadMoreServiceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480807C1F383E8C00A8BD12 /* JSLoadMoreServiceDemoTests.m */; };
 		548080881F383E8C00A8BD12 /* JSLoadMoreServiceDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 548080871F383E8C00A8BD12 /* JSLoadMoreServiceDemoUITests.m */; };
-		548080981F383F2C00A8BD12 /* NSObject+LoadMoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = 548080971F383F2C00A8BD12 /* NSObject+LoadMoreService.m */; };
-		5480809B1F38697700A8BD12 /* JSRequestTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5480809A1F38697700A8BD12 /* JSRequestTools.m */; };
 		548080AE1F397C0300A8BD12 /* JSGoodListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 548080A61F397C0300A8BD12 /* JSGoodListModel.m */; };
 		548080AF1F397C0300A8BD12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 548080AA1F397C0300A8BD12 /* ViewController.m */; };
 		548080B01F397C0300A8BD12 /* JSListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 548080AD1F397C0300A8BD12 /* JSListViewModel.m */; };
-		548080B71F398E0500A8BD12 /* UITableView+Preload.m in Sources */ = {isa = PBXBuildFile; fileRef = 548080B61F398E0500A8BD12 /* UITableView+Preload.m */; };
 		548080BA1F399A4300A8BD12 /* JSListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 548080B91F399A4300A8BD12 /* JSListTableView.m */; };
 		711473D7FA5AE33FDD09B208 /* Pods_JSLoadMoreServiceDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C947F9BF381D43E8D51962 /* Pods_JSLoadMoreServiceDemo.framework */; };
 /* End PBXBuildFile section */
@@ -57,19 +54,12 @@
 		548080831F383E8C00A8BD12 /* JSLoadMoreServiceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSLoadMoreServiceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		548080871F383E8C00A8BD12 /* JSLoadMoreServiceDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSLoadMoreServiceDemoUITests.m; sourceTree = "<group>"; };
 		548080891F383E8D00A8BD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		548080961F383F2C00A8BD12 /* NSObject+LoadMoreService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LoadMoreService.h"; sourceTree = "<group>"; };
-		548080971F383F2C00A8BD12 /* NSObject+LoadMoreService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LoadMoreService.m"; sourceTree = "<group>"; };
-		548080991F38697700A8BD12 /* JSRequestTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRequestTools.h; sourceTree = "<group>"; };
-		5480809A1F38697700A8BD12 /* JSRequestTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRequestTools.m; sourceTree = "<group>"; };
-		548080A21F396E8400A8BD12 /* JSLoadMoreHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSLoadMoreHeader.h; sourceTree = "<group>"; };
 		548080A51F397C0300A8BD12 /* JSGoodListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSGoodListModel.h; sourceTree = "<group>"; };
 		548080A61F397C0300A8BD12 /* JSGoodListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSGoodListModel.m; sourceTree = "<group>"; };
 		548080A91F397C0300A8BD12 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		548080AA1F397C0300A8BD12 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		548080AC1F397C0300A8BD12 /* JSListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSListViewModel.h; sourceTree = "<group>"; };
 		548080AD1F397C0300A8BD12 /* JSListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSListViewModel.m; sourceTree = "<group>"; };
-		548080B51F398E0500A8BD12 /* UITableView+Preload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Preload.h"; sourceTree = "<group>"; };
-		548080B61F398E0500A8BD12 /* UITableView+Preload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Preload.m"; sourceTree = "<group>"; };
 		548080B81F399A4300A8BD12 /* JSListTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSListTableView.h; sourceTree = "<group>"; };
 		548080B91F399A4300A8BD12 /* JSListTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSListTableView.m; sourceTree = "<group>"; };
 		BA5E4B3E9987A8EDF45BAC88 /* Pods-JSLoadMoreServiceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSLoadMoreServiceDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSLoadMoreServiceDemo/Pods-JSLoadMoreServiceDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,7 +119,6 @@
 			children = (
 				548080651F383E8C00A8BD12 /* AppDelegate.h */,
 				548080661F383E8C00A8BD12 /* AppDelegate.m */,
-				548080951F383EA800A8BD12 /* JSLoadMoreService */,
 				548080A31F397C0300A8BD12 /* Demo */,
 				5480806B1F383E8C00A8BD12 /* Main.storyboard */,
 				5480806E1F383E8C00A8BD12 /* Assets.xcassets */,
@@ -165,20 +154,6 @@
 			);
 			path = JSLoadMoreServiceDemoUITests;
 			sourceTree = "<group>";
-		};
-		548080951F383EA800A8BD12 /* JSLoadMoreService */ = {
-			isa = PBXGroup;
-			children = (
-				548080961F383F2C00A8BD12 /* NSObject+LoadMoreService.h */,
-				548080971F383F2C00A8BD12 /* NSObject+LoadMoreService.m */,
-				548080991F38697700A8BD12 /* JSRequestTools.h */,
-				5480809A1F38697700A8BD12 /* JSRequestTools.m */,
-				548080B51F398E0500A8BD12 /* UITableView+Preload.h */,
-				548080B61F398E0500A8BD12 /* UITableView+Preload.m */,
-				548080A21F396E8400A8BD12 /* JSLoadMoreHeader.h */,
-			);
-			path = JSLoadMoreService;
-			sourceTree = SOURCE_ROOT;
 		};
 		548080A31F397C0300A8BD12 /* Demo */ = {
 			isa = PBXGroup;
@@ -429,14 +404,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				548080B01F397C0300A8BD12 /* JSListViewModel.m in Sources */,
-				548080B71F398E0500A8BD12 /* UITableView+Preload.m in Sources */,
 				548080BA1F399A4300A8BD12 /* JSListTableView.m in Sources */,
 				548080AF1F397C0300A8BD12 /* ViewController.m in Sources */,
-				548080981F383F2C00A8BD12 /* NSObject+LoadMoreService.m in Sources */,
 				548080671F383E8C00A8BD12 /* AppDelegate.m in Sources */,
 				548080641F383E8C00A8BD12 /* main.m in Sources */,
 				548080AE1F397C0300A8BD12 /* JSGoodListModel.m in Sources */,
-				5480809B1F38697700A8BD12 /* JSRequestTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

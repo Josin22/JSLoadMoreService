@@ -3,6 +3,10 @@
 [![CocoaPods Compatible](https://img.shields.io/badge/build-passing-green.svg)](https://github.com/josin22/JSLoadMoreService)
 
 让预加载,成为你分页的好朋友
+
+# 丝滑的样子
+![images](https://raw.githubusercontent.com/Josin22/image_source/master/yun_pdlist_preload.gif)
+
 # 安装
 支持pod 安装
 

@@ -105,6 +105,18 @@
  */
 @property (nonatomic, strong) NSMutableArray<JSTitleItemModel *> *multiTitleDataArray;
 /**
+ *  获取当前index下数据
+ *
+ *  @return 数组
+ */
+- (NSMutableArray *)getCurrentDataArray;
+/**
+ *  根据index获取数据
+ *
+ *  @return 数组
+ */
+- (NSMutableArray *)getDataArrayWithIndex:(NSInteger)index;
+/**
  *  多列表请求分页加载数据
  *
  *  @param baseURL               请求地址

@@ -80,7 +80,50 @@
 }
 ```
 
+# 新增属性以及方法
+```/*********************************  多列表分页加载 **********************************/
+
+/**
+ *  所有当前数据
+ */
+@property (nonatomic, strong) NSMutableDictionary                *multiDataDict;
+/**
+ *  所有当前页码
+ */
+@property (nonatomic, strong) NSMutableDictionary                *multiCurrentPageDict;
+/**
+ *  当前列表索引
+ */
+@property (nonatomic, assign) NSInteger                          currentIndex;
+/**
+ *  所有当前是否已加载完
+ */
+@property (nonatomic, strong) NSMutableDictionary                *multiNoMoreDataDict;
+/**
+ *  所有title数据
+ */
+@property (nonatomic, strong) NSMutableArray<JSTitleItemModel *> *multiTitleDataArray;
+/**
+ *  多列表请求分页加载数据
+ *
+ *  @param baseURL               请求地址
+ *  @param para                  请求参数
+ *  @param keyOfArray            取数组的key(注:多层请用/分隔)
+ *  @param classNameOfModelArray 序列化model的class_name
+ *  @param isReload              (YES:刷新、NO:加载更多)
+ *
+ *  @return RACSingal
+ */
+- (RACSignal *)js_singalForMultiRequestWithURL:(NSString *)baseURL
+                                          para:(NSMutableDictionary *)para
+                                    keyOfArray:(NSString *)keyOfArray
+                         classNameOfModelArray:(NSString *)classNameOfModelArray
+                                      isReload:(BOOL)isReload;
+```
+
 详细的实现步骤请访问[我的博客](http://qiaotongxin.cc/2017/08/06/20170807/)
 
 如果用起来能让你愉悦,别忘记给个star,👍一下~
 
+# update:
+1.新增多列表混合请求方法以及属性

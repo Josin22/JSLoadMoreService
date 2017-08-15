@@ -1,6 +1,0 @@
-framework module JSLoadMoreService {
-  umbrella header "JSLoadMoreService-umbrella.h"
-
-  export *
-  module * { export * }
-}

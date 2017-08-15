@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54055FF01F413ED2005B5DCC /* JSRequestTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 54055FEB1F413ED2005B5DCC /* JSRequestTools.m */; };
+		54055FF11F413ED2005B5DCC /* NSObject+LoadMoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = 54055FED1F413ED2005B5DCC /* NSObject+LoadMoreService.m */; };
+		54055FF21F413ED2005B5DCC /* UITableView+Preload.m in Sources */ = {isa = PBXBuildFile; fileRef = 54055FEF1F413ED2005B5DCC /* UITableView+Preload.m */; };
 		548080641F383E8C00A8BD12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 548080631F383E8C00A8BD12 /* main.m */; };
 		548080671F383E8C00A8BD12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 548080661F383E8C00A8BD12 /* AppDelegate.m */; };
 		5480806D1F383E8C00A8BD12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5480806B1F383E8C00A8BD12 /* Main.storyboard */; };
@@ -40,6 +43,13 @@
 
 /* Begin PBXFileReference section */
 		44C947F9BF381D43E8D51962 /* Pods_JSLoadMoreServiceDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSLoadMoreServiceDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54055FE91F413ED2005B5DCC /* JSLoadMoreHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSLoadMoreHeader.h; sourceTree = "<group>"; };
+		54055FEA1F413ED2005B5DCC /* JSRequestTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRequestTools.h; sourceTree = "<group>"; };
+		54055FEB1F413ED2005B5DCC /* JSRequestTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRequestTools.m; sourceTree = "<group>"; };
+		54055FEC1F413ED2005B5DCC /* NSObject+LoadMoreService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LoadMoreService.h"; sourceTree = "<group>"; };
+		54055FED1F413ED2005B5DCC /* NSObject+LoadMoreService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LoadMoreService.m"; sourceTree = "<group>"; };
+		54055FEE1F413ED2005B5DCC /* UITableView+Preload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Preload.h"; sourceTree = "<group>"; };
+		54055FEF1F413ED2005B5DCC /* UITableView+Preload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Preload.m"; sourceTree = "<group>"; };
 		5480805F1F383E8C00A8BD12 /* JSLoadMoreServiceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSLoadMoreServiceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		548080631F383E8C00A8BD12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		548080651F383E8C00A8BD12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +102,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54055FE81F413ED2005B5DCC /* JSLoadMoreService */ = {
+			isa = PBXGroup;
+			children = (
+				54055FE91F413ED2005B5DCC /* JSLoadMoreHeader.h */,
+				54055FEA1F413ED2005B5DCC /* JSRequestTools.h */,
+				54055FEB1F413ED2005B5DCC /* JSRequestTools.m */,
+				54055FEC1F413ED2005B5DCC /* NSObject+LoadMoreService.h */,
+				54055FED1F413ED2005B5DCC /* NSObject+LoadMoreService.m */,
+				54055FEE1F413ED2005B5DCC /* UITableView+Preload.h */,
+				54055FEF1F413ED2005B5DCC /* UITableView+Preload.m */,
+			);
+			path = JSLoadMoreService;
+			sourceTree = SOURCE_ROOT;
+		};
 		548080561F383E8C00A8BD12 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +143,7 @@
 			children = (
 				548080651F383E8C00A8BD12 /* AppDelegate.h */,
 				548080661F383E8C00A8BD12 /* AppDelegate.m */,
+				54055FE81F413ED2005B5DCC /* JSLoadMoreService */,
 				548080A31F397C0300A8BD12 /* Demo */,
 				5480806B1F383E8C00A8BD12 /* Main.storyboard */,
 				5480806E1F383E8C00A8BD12 /* Assets.xcassets */,
@@ -403,9 +428,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54055FF01F413ED2005B5DCC /* JSRequestTools.m in Sources */,
 				548080B01F397C0300A8BD12 /* JSListViewModel.m in Sources */,
 				548080BA1F399A4300A8BD12 /* JSListTableView.m in Sources */,
 				548080AF1F397C0300A8BD12 /* ViewController.m in Sources */,
+				54055FF21F413ED2005B5DCC /* UITableView+Preload.m in Sources */,
+				54055FF11F413ED2005B5DCC /* NSObject+LoadMoreService.m in Sources */,
 				548080671F383E8C00A8BD12 /* AppDelegate.m in Sources */,
 				548080641F383E8C00A8BD12 /* main.m in Sources */,
 				548080AE1F397C0300A8BD12 /* JSGoodListModel.m in Sources */,

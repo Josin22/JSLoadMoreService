@@ -363,5 +363,14 @@ static char const *key_multiNoMoreDataDict = "key_multiNoMoreDataDict";
     return (!self.isRequesting&&!isNomoreData);
 }
 
+- (NSMutableArray *)getCurrentDataArray{
+    return [self getDataArrayWithIndex:self.currentIndex];
+}
+
+- (NSMutableArray *)getDataArrayWithIndex:(NSInteger)index{
+    JSTitleItemModel *titleItemModel = self.multiTitleDataArray[index];
+    NSMutableArray *dataArray = self.multiDataDict[titleItemModel.id];
+    return dataArray;
+}
 
 @end
